@@ -1,0 +1,16 @@
+﻿@charset "utf-8";
+/*清除默认样式*/
+*{ margin:0; padding: 0;font-family:"Microsoft YaHei"; font-size:14px}
+a{ text-decoration: none;}
+li{ list-style: none;}
+img{ vertical-align: top; border-style: none; }
+table{border-collapse:collapse;}
+input,select,textarea{ outline: none; }
+/*公共样式*/
+.abs{position:absolute;}
+.pos{position:relative}
+.fl{ float: left; display: inline;}
+.fr{ float: right; display: inline; }
+.clearFix:after{ content: ""; display: block; clear:both; }
+.clearFix{ zoom:1; }
+
